@@ -2,13 +2,12 @@
 
 Youtube Clone Coding
 
-[Click here to try]
-(https://justinhwang92.github.io/Youtube_clone/index.html)
+<a href="https://justinhwang92.github.io/Youtube_clone/." rel="nofollow">Click here to try</a>
 
 ## Wide Screen
 
-![wide](https://justinhwang92.github.io/Youtube_clone/demo/wide.png)
+<img src="demo/wide.png" alt="">
 
 ## Small Screen (mobile environment)
 
-![wide](https://justinhwang92.github.io/Youtube_clone/demo/small.png)
+<img src="demo/small.png" alt="">
