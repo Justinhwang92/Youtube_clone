@@ -93,6 +93,7 @@ header .icons .fa-search {
 
 .info .metadata .titleAndButton {
   display: flex;
+  justify-content: space-between;
 }
 
 .info .metadata .titleAndButton .title {
@@ -138,7 +139,7 @@ header .icons .fa-search {
 
 .info .actions button i {
   margin: 0 auto;
-  margin-bottom: calc(val(--padding) / 2);
+  margin-bottom: 5px;
   font-size: 16px;
 }
 
@@ -227,8 +228,8 @@ header .icons .fa-search {
   font-size: var(--font-small);
 }
 
-.upNext .item .info .name,
-.upNext .item .info .views {
+.upNext .item .itemInfo .name,
+.upNext .item .itemInfo .views {
   font-size: var(--font-micro);
   color: var(--grey-dark-color);
 }
