@@ -6,7 +6,7 @@ Youtube Clone Coding
 
 ## Wide Screen
 
-<img src="demo/wide.png" alt="">
+<img src="demo/wide.png" object-fit=contain>
 
 ## Small Screen (mobile environment)
 
