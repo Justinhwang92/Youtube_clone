@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
     <title>Youtube Mobile</title>
   </head>
   <body>
@@ -31,87 +32,93 @@
     <section class="player">
       <video controls src="video/video.MOV"></video>
     </section>
-
-    <!-- Video Info -->
-    <section class="info">
-      <!-- Metadata -->
-      <div class="metadata">
-        <ul class="hashtags">
-          <li>#JustinCoding</li>
-          <li>#JustinCoder</li>
-          <li>#Justin</li>
-        </ul>
-        <div class="titleAndButton">
-          <span class="title">Code your dream with Justin 🧑‍💻👩‍💻</span>
-          <button class="moreBtn">
-            <i class="fas fa-caret-down"></i>
-          </button>
-        </div>
-        <span class="views">1M views 1 month ago</span>
-      </div>
-      <!-- Actions -->
-      <div class="actions">
-        <li>
-          <button><i class="fas fa-thumbs-up"></i></button>
-        </li>
-        <li>
-          <button><i class="fas fa-thumbs-down"></i></button>
-        </li>
-        <li>
-          <button><i class="fas fa-share"></i></button>
-        </li>
-        <li>
-          <button><i class="fas fa-plus"></i></button>
-        </li>
-        <li>
-          <button><i class="fab fa-font-awesome-flag"></i></button>
-        </li>
-      </div>
-      <!-- Channel Description -->
-      <div class="channel">
+    <!-- Video info and Up Next -->
+    <div class="infoAndUpNext">
+      <!-- Video Info -->
+      <section class="info">
+        <!-- Metadata -->
         <div class="metadata">
-          <img src="image/IMG_4589.JPG" alt="" />
-          <div class="info">
-            <span class="name">JustinCoding by Justin</span>
-            <span class="subscribers">1M subscribers</span>
+          <ul class="hashtags">
+            <li>#JustinCoding</li>
+            <li>#JustinCoder</li>
+            <li>#Justin</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title">Code your dream with Justin 🧑‍💻👩‍💻</span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
           </div>
+          <span class="views">1M views 1 month ago</span>
         </div>
-        <button class="subscribe">subscribe</button>
-      </div>
-    </section>
+        <!-- Actions buttons -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>50.9K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <!-- Channel Description -->
+        <div class="channel">
+          <div class="metadata">
+            <img src="image/IMG_4589.JPG" alt="" />
+            <div class="info">
+              <span class="name">JustinCoding by Justin</span>
+              <span class="subscribers">1M subscribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
 
-    <!--  -->
-    <section class="upNext">
-      <span class="upNext">Up next</span>
-      <ul>
-        <li class="item">
-          <img src="image/1.png" alt="" />
-          <div class="info">
-            <span class="title">First next video text here</span>
-            <span class="name">JustinCoding by Justin</span>
-            <span class="view">90K views</span>
-          </div>
-          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-        </li>
-        <li class="item">
-          <img src="image/2.png" alt="" />
-          <div class="info">
-            <span class="title">Second next video text here</span>
-            <span class="name">JustinCoding by Justin</span>
-            <span class="view">1.3M views</span>
-          </div>
-          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-        </li>
-        <li class="item">
-          <img src="image/3.png" alt="" />
-          <div class="info">
-            <span class="title">Third next video text here</span>
-            <span class="name">JustinCoding by Justin</span>
-            <span class="view">70K views</span>
-          </div>
-          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-        </li>
-      </ul>
-    </section>
+      <!-- Up Next -->
+      <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="image/1.png" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title">First next video text here</span>
+              <span class="name">JustinCoding by Justin</span>
+              <span class="views">90K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/2.png" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title">Second next video text here</span>
+              <span class="name">JustinCoding by Justin</span>
+              <span class="views">1.3M views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/3.png" alt="" /></div>
+            <div class="itemInfo">
+              <span class="title">Third next video text here</span>
+              <span class="name">JustinCoding by Justin</span>
+              <span class="views">70K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
   </body>
 </html>
